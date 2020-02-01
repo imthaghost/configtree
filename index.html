@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from configtree.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Feb 2020 00:29:33 GMT -->
+<head>
+
+    <!-- GA -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130558151-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-130558151-2');
+    </script>
+
+    <!-- Main -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>ConfigTree</title>
+    <meta name="keywords" content="configtree, config, configuration, api">
+    <meta name="description" content="Configuration management made simple.">
+    <meta name="author" content="ConfigTree">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://configtree.co/">
+    <meta property="og:title" content="ConfigTree">
+    <meta property="og:description" content="Configuration management made simple.">
+    <meta property="og:image" content="images/social.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://configtree.co">
+    <meta property="twitter:title" content="ConfigTree">
+    <meta property="twitter:description" content="Configuration management made simple.">
+    <meta property="twitter:image" content="images/social.jpg">
+
+    <!-- Style & Favicon -->
+    <link href="images/thumbnail.jpg" rel="apple-touch-icon">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="hero">
+    <nav class="nav">
+  <a href="index.html" class="nav-logo logo-beta">
+    <div class="nav-logo-img"></div>
+    <p class="button badge hide-mobile">Beta</p>
+  </a>
+  <div class="nav-links">
+    <a href="https://docs.configtree.co/" target="_blank" class="nav-link">Docs</a>
+    <a href="https://app.configtree.co/#/" class="nav-link">Login</a>
+    <a href="https://app.configtree.co/#/registration" class="nav-link signup">Signup</a>
+  </div>
+</nav>
+    <div class="hero-content wrapper">
+      <h1 class="hero-title">Collaborative configuration management made simple</h1>
+      <p class="hero-subtitle">Create, update, encrypt and deploy your configurations in seconds.</p>
+      <a href="https://app.configtree.co/#/registration" class="button">Try for free</a>
+    </div>
+    <img class="dashboard rellax" src="images/dashboard.png" alt="dashboard"/>
+  </div>
+  <div class="content">
+    <section class="section">
+      <div class="wrapper">
+        <div class="email-block">
+  <div class="left">
+    <img src="images/jetpack.svg" alt="jetpack"/>
+    <h3>Drop your email to elevate your configuration game.</h3>
+  </div>
+  <form class="email-form validate" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+    <div class="email-success"><h1>🌿</h1><h3>Done!</h3></div>
+    <div class="email-content">
+      <input type="email" class="email-input required email" value="" name="EMAIL" placeholder="What's your email?" id="mce-EMAIL" required>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c7d394da347a779491d645243_6df23362d2" tabindex="-1" value=""></div>
+      <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="email-submit"/>
+    </div>
+  </form>
+</div>
+        <h2 class="section-title reveal">Features to simplify your configuration workflow</h2>
+        <div class="row">
+          <div class="column img reveal-left">
+            <img src="images/feature-versions.jpg" alt="versions"/>
+          </div>
+          <div class="column text reveal-right">
+            <i class="icon" data-feather="layers"></i>
+            <h3>Version Control</h3>
+            <p>Keep a history of all your configurations.</p>
+          </div>
+        </div>
+        <div class="row reversed">
+          <div class="column text reveal-left">
+            <i class="icon" data-feather="box"></i>
+            <h3>Multiple Applications</h3>
+            <p>Manage all of your apps in a single place.</p>
+          </div>
+          <div class="column img reveal-right">
+            <img src="images/feature-applications.jpg" alt="versions"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column img reveal-left">
+            <img src="images/feature-permissions.jpg" alt="versions"/>
+          </div>
+          <div class="column text reveal-right">
+            <i class="icon" data-feather="lock"></i>
+            <h3>Manage Permissions</h3>
+            <p>Give the right access to the right people.</p>
+          </div>
+        </div>
+        <div class="row reversed">
+          <div class="column text reveal-left">
+            <i class="icon" data-feather="code"></i>
+            <h3>Declarative API</h3>
+            <p>Integrate your versions into any CI/CD pipeline &amp; code base with an easy to use API.</p>
+          </div>
+          <div class="column img reveal-right">
+            <img src="images/feature-api.jpg" alt="versions"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrapper">
+        <h2 class="section-title reveal">Solving configuration pain points for everyone</h2>
+        <div class="row blocks">
+            <div class="column left reveal-left slider-tabs">
+              <button class="button slider-tab slider-tab-active" data-selector=".slide-devs"><i class="icon" data-feather="code"></i> Devs</button>
+              <button class="button slider-tab" data-selector=".slide-devops"><i class="icon" data-feather="terminal"></i> DevOps</button>
+              <button class="button slider-tab" data-selector=".slide-security"><i class="icon" data-feather="shield"></i> Security</button>
+            </div>
+            <div class="column right reveal-right">
+              <div class="slider">
+                <div class="slide slide-devs">
+                  <p><i class="icon" data-feather="check"></i> No hunting for the right key/value pairs</p>
+                  <p><i class="icon" data-feather="check"></i> Never have to debug a wrong API key</p>
+                  <p><i class="icon" data-feather="check"></i> Keep your values consistent across all environments</p>
+                  <p><i class="icon" data-feather="check"></i> Easily create, update, and compare configurations</p>
+                </div>
+                <div class="slide slide-devops">
+                  <p><i class="icon" data-feather="check"></i> Manage who gets access to what values with a simple UI</p>
+                  <p><i class="icon" data-feather="check"></i> Off-board users without having to worry about sensitive data</p>
+                  <p><i class="icon" data-feather="check"></i> Easily share keys &amp; values & give access to the right people</p>
+                  <p><i class="icon" data-feather="check"></i> Integrate values into Kuberenetes, Rancher, Docker &amp; more</p>
+                </div>
+                <div class="slide slide-security">
+                  <p><i class="icon" data-feather="check"></i> Encrypted at rest</p>
+                  <p><i class="icon" data-feather="check"></i> Encrypted in transit</p>
+                  <p><i class="icon" data-feather="check"></i> Full ACL role based permissions</p>
+                  <p><i class="icon" data-feather="check"></i> Host with us or on premise<span class="button badge">Soon</span></p></p>
+                </div>
+              </div>
+            </div>
+            <button class="arrow slide-btn"><i class="icon" data-feather="chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section pricing">
+      <div class="wrapper">
+        <h2 class="section-title reveal">Simple pricing that adapts to you &amp; your business</h2>
+        <div class="cards">
+          <div class="card reveal">
+            <div class="card-img"><img src="images/icon-solo.svg" alt="solo"></div>
+            <h5>Solo</h5>
+            <h2>Free</h2>
+            <p><i data-feather="check" class="icon"></i> 1 user</p>
+            <p><i data-feather="check" class="icon"></i> 2 applications</p>
+            <p><i data-feather="check" class="icon"></i> Unlimited versions, environments, and configurations</p>
+            <a href="https://app.configtree.co/#/registration" class="button">Try for free</a>
+          </div>
+          <div class="card reveal">
+            <div class="card-img"><img src="images/icon-startup.svg" alt="startup"></div>
+            <h5>Startup</h5>
+            <h2>$19/mo</h2>
+            <p><i data-feather="check" class="icon"></i> 3 users</p>
+            <p><i data-feather="check" class="icon"></i> 7 applications</p>
+            <p><i data-feather="check" class="icon"></i> Unlimited versions, environments, and configurations</p>
+            <a href="https://app.configtree.co/#/registration" class="button">Try for free</a>
+          </div>
+          <div class="card reveal">
+            <i class="icon star" data-feather="star"></i>
+            <div class="card-img"><img src="images/icon-venture.svg" alt="venture"></div>
+            <h5>Venture</h5>
+            <h2>$49/mo</h2>
+            <p><i data-feather="check" class="icon"></i> 10 users</p>
+            <p><i data-feather="check" class="icon"></i> 20 applications</p>
+            <p><i data-feather="check" class="icon"></i> Unlimited versions, environments, and configurations</p>
+            <a href="https://app.configtree.co/#/registration" class="button popular">Try for free</a>
+          </div>
+          <div class="card reveal">
+            <div class="card-img"><img src="images/icon-enterprise.svg" alt="enterprise"></div>
+            <h5>Enterprise</h5>
+            <h2>$119/mo</h2>
+            <p><i data-feather="check" class="icon"></i> 25 users</p>
+            <p><i data-feather="check" class="icon"></i> 50 applications</p>
+            <p><i data-feather="check" class="icon"></i> Unlimited versions, environments, and configurations</p>
+            <a href="https://app.configtree.co/#/registration" class="button">Try for free</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrapper">
+        <div class="cta reveal">
+          <div class="left">
+            <div class="cta-logo"><div class="logo-beta">
+  <img src="images/logo-white.svg" alt="configtree"/>
+  <p class="button badge hide-mobile">Beta</p>
+</div></div>
+            <h3 class="cta-title">A better configuration workflow is only a few clicks away.</h3>
+            <a href="https://app.configtree.co/#/registration" class="button">Try for free</a>
+          </div>
+          <div class="right">
+            <img class="dashboard" src="images/dashboard-cta.png" alt="dashboard"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+  <div class="wrapper">
+    <div class="email-block">
+  <div class="left">
+    <img src="images/jetpack.svg" alt="jetpack"/>
+    <h3>Drop your email to elevate your configuration game.</h3>
+  </div>
+  <form class="email-form validate" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+    <div class="email-success"><h1>🌿</h1><h3>Done!</h3></div>
+    <div class="email-content">
+      <input type="email" class="email-input required email" value="" name="EMAIL" placeholder="What's your email?" id="mce-EMAIL" required>
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c7d394da347a779491d645243_6df23362d2" tabindex="-1" value=""></div>
+      <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="email-submit"/>
+    </div>
+  </form>
+</div>
+    <div class="links row">
+      <a href="index.html" class="logo"><img src="images/logo-white.svg" alt="logo"/></a>
+      <div class="column">
+        <h3>Company</h3>
+        <a href="#" class="disabled"><i class="icon" data-feather="book-open"></i>Our Story</a>
+        <a href="https://docs.configtree.co/" target="_blank"><i class="icon" data-feather="book"></i>Documentation</a>
+        <a href="https://configtree.typeform.com/to/N7pI4X" data-mode="popup" data-hide-headers="true" data-hide-footer="true" class="typeform-share" target="_blank"><i class="icon" data-feather="help-circle"></i>Help & Support</a>
+        <script>(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script>
+      </div>
+      <div class="column">
+        <h3>Connect</h3>
+        <a href="https://twitter.com/configtree" target="_blank"><i class="icon" data-feather="twitter"></i>Twitter</a>
+        <a href="https://instagram.com/configtree" target="_blank"><i class="icon" data-feather="instagram"></i>Instagram</a>
+        <a href="mailto:info@configtree.co"><i class="icon" data-feather="at-sign"></i>Email Us</a>
+      </div>
+      <div class="column">
+        <h3>Legal</h3>
+        <a href="https://app.configtree.co/#/terms" class="link">Privacy & Terms</a>
+        <p>© <script>document.write(new Date().getFullYear());</script> ConfigTree.</p>
+        <p>All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  <img class="illo reveal" src="images/illustration.svg" alt="illustration"/>
+</footer>
+
+
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+<script>
+
+  var isMobile = window.matchMedia("only screen and (max-width: 600px)").matches;
+  if(isMobile) {
+  } else {
+
+    $(window).scroll(function(i){
+
+      // Fade hero contents on scroll
+      var scrollVar = $(window).scrollTop();
+      $('.hero-content').css({'opacity':( 600-scrollVar )/600});
+
+      // Add BG to nav on scroll
+      var scroll = $(this).scrollTop();
+      if (scroll > 0){
+        $('.nav').addClass('nav-scrolled');
+      } else {
+        $('.nav').removeClass('nav-scrolled');
+      }
+
+    });
+
+  }
+
+
+  $(document).ready(function(){
+
+    // Flickity slider
+    var $slider = $('.slider').flickity({
+      prevNextButtons: false,
+      percentPosition: true,
+      cellAlign: 'left',
+      wrapAround: true,
+      draggable: '>1',
+      autoPlay: false,
+      pageDots: false,
+      resize: false,
+    });
+    // Flickity instance
+    var flkty = $slider.data('flickity');
+    // Switch slides on slider tab click
+    $('.slider-tabs').on( 'click', '.slider-tab', function(e) {
+      e.preventDefault();
+      var selector = $(this).attr('data-selector');
+      $slider.flickity( 'selectCell', selector );
+    });
+    // Slider tab buttons
+    var $sliderTabs = $('.slider-tabs');
+    var $sliderTab = $sliderTabs.find('.slider-tab');
+    // Active slider tab button on click
+    $slider.on( 'select.flickity', function() {
+      $sliderTab.filter('.slider-tab-active').removeClass('slider-tab-active');
+      $sliderTab.eq( flkty.selectedIndex ).addClass('slider-tab-active');
+    });
+    // Next slide on button click
+    $('.slide-btn').on('click', function() {
+      $slider.flickity('next');
+    });
+
+
+    // Show emoji after successful email input
+    $('.email-form').ajaxChimp({
+      url: 'https://configtree.us19.list-manage.com/subscribe/post?u=ab4b9b5fb74d8c3c7d0ed6613&amp;id=4e02747932',
+      callback: function(response) {
+        $('.email-content').addClass('email-content-hide');
+        $('.email-success').addClass('email-success-show');
+      }
+    });
+
+    // Feather icons
+    feather.replace()
+
+    // ScrollReveal
+    window.sr = ScrollReveal({
+      distance: '20px',
+      duration: 1000,
+      mobile: false,
+      reset: false,
+      opacity: 0
+    });
+    sr.reveal('.reveal', { origin: 'bottom' });
+    sr.reveal('.reveal-left', { origin: 'left' });
+    sr.reveal('.reveal-right', { origin: 'right' });
+
+    if(isMobile) {
+    } else {
+
+        // Rellax parallax
+        var rellax = new Rellax('.rellax', {
+          speed: +4
+        });
+
+    }
+
+  })
+</script>
+
+</body>
+
+<!-- Mirrored from configtree.co/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Feb 2020 00:29:50 GMT -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

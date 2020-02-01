@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="14px" viewBox="0 0 19 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.55625,12.6118056 L14.5979167,18.5701389 C14.3993056,18.76875 14.2006944,18.8680556 13.9027778,18.8680556 C13.6048611,18.8680556 13.40625,18.76875 13.2076389,18.5701389 C12.8104167,18.1729167 12.8104167,17.5770833 13.2076389,17.1798611 L17.4777778,12.9097222 L3.97222222,12.9097222 C3.37638889,12.9097222 2.97916667,12.5125 2.97916667,11.9166667 C2.97916667,11.3208333 3.37638889,10.9236111 3.97222222,10.9236111 L17.4777778,10.9236111 L13.2076389,6.65347222 C12.8104167,6.25625 12.8104167,5.66041667 13.2076389,5.26319444 C13.6048611,4.86597222 14.2006944,4.86597222 14.5979167,5.26319444 L20.55625,11.2215278 C20.6555556,11.3208333 20.7548611,11.4201389 20.7548611,11.5194444 C20.8541667,11.7180556 20.8541667,12.0159722 20.7548611,12.3138889 C20.7548611,12.4131944 20.6555556,12.5125 20.55625,12.6118056 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Launch" transform="translate(-1132.000000, -4760.000000)">
+            <g id="Footer" transform="translate(0.000000, 4657.000000)">
+                <g id="Newsletter" transform="translate(170.000000, 0.000000)">
+                    <g id="Form" transform="translate(678.333333, 78.833333)">
+                        <g id="Submit" transform="translate(245.666667, 0.000000)">
+                            <g id="icon-/-arrow-right" transform="translate(35.750000, 19.250000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g id="color-/-configtree" mask="url(#mask-2)" fill="#007071" fill-rule="evenodd">
+                                    <rect id="Shape" x="0" y="0" width="23.8333333" height="23.8333333"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
