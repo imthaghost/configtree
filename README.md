@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to configTree</h1>
-<img align="center" src="docs/media/icon.png" title="Icon"></a>
+<img align="center" src="docs/media/favicon.png" title="Icon"></a>
 <p>
     <a href="https://www.npmjs.com/package/readme-md-generator">
     <img alt="downloads" src="https://img.shields.io/github/contributors/imthaghost/ghostChat?color=green" target="_blank" />
@@ -18,7 +18,7 @@
 
 > Collaborative configuration management made simple Create, update, encrypt and deploy your configurations in seconds.
 
-![Home](/docs/media/home.png)
+![Home](/docs/media/dashboard.png)
 
 ## 🚀 Getting Started - Local
 
