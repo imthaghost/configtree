@@ -11,19 +11,11 @@ Collaborative configuration management made simple Create, update, encrypt and d
 <br>
 <p align="center">
    <a href="https://goreportcard.com/report/github.com/imthaghost/goclone"><img src="https://goreportcard.com/badge/github.com/imthaghost/goclone"></a>
-   <a href="#">
-    <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"alt="gitmoji-changelog">
-  </a>
 </p>
 <br>
 
 ![Home](/docs/media/dashboard.png)
 
-## 📝 License
-
-By contributing, you agree that your contributions will be licensed under its MIT License.
-
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Contributors
 
