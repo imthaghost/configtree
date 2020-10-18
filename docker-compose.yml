@@ -1,0 +1,25 @@
+version: '3'
+services:
+    mongo:
+        image: mongo
+        container_name: mongo
+        restart: always
+        environment:
+          MONGO_INITDB_ROOT_USERNAME: user
+          MONGO_INITDB_ROOT_PASSWORD: AmazingPassword1234
+        ports:
+          - 27017:27017
+    api:
+        build:
+          context: .
+          dockerfile: Dockerfile-dev
+        ports:
+          - 8080:8080
+        depends_on:
+          - mongo
+        links:
+          - mongo
+        volumes:
+          - ./:/go/src/app
+volumes:
+    data:

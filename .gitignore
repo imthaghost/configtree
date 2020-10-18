@@ -1,0 +1,6 @@
+.env
+.git
+.DS_Store
+app
+main
+echo-boiler

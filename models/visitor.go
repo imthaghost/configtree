@@ -1,6 +1,6 @@
 package models
 
-// Visitor ...
+// Visitor is a struct for capturing IP traffic
 type Visitor struct {
 	IP     string
 	Remote string
